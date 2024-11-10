@@ -17,10 +17,12 @@ class PokemonAdapter(
 
         fun bind(pokemon: PokemonResponse) {
             binding.tvName.text = pokemon.name
+
             Glide
                 .with(itemView)
                 .load(pokemon.getPokemonImage())
                 .into(binding.ivPokemon)
+            binding.tvWeight.text = "Peso: ${pokemon.weight} kg"
         }
     }
 

@@ -2,8 +2,8 @@ package com.becerra.diego.poketinder
 
 data class PokemonResponse(
     val name: String,
-    val url: String
-) {
+    val url: String,
+    val weight: Int) {
     fun getPokemonId() = getIdPokemonFromUrl(url)
 
     fun getIdPokemonFromUrl(url: String): String = url.split("/").toTypedArray()[6]

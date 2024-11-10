@@ -72,14 +72,13 @@
 
             </LinearLayout>
 
-
-
             <TextView
+                android:id="@+id/tvWeight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textColor="#CCFBFBFB"
-                android:text="Pokemon de tipo Agua" />
+                tools:text="Pokemon de tipo Agua" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
