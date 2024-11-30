@@ -1,9 +1,12 @@
-package com.becerra.diego.poketinder
+package com.becerra.diego.poketinder.data
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.becerra.diego.poketinder.ui.viewmodel.LoginViewModel
+import com.becerra.diego.poketinder.ui.view.MainActivity
+import com.becerra.diego.poketinder.ui.view.RegisterActivity
 import com.becerra.diego.poketinder.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {

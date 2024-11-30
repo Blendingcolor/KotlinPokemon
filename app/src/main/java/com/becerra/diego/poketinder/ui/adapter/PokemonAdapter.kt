@@ -1,9 +1,10 @@
-package com.becerra.diego.poketinder
+package com.becerra.diego.poketinder.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.becerra.diego.poketinder.data.model.PokemonResponse
 import com.bumptech.glide.Glide
 import com.becerra.diego.poketinder.databinding.ItemPokemonBinding
 

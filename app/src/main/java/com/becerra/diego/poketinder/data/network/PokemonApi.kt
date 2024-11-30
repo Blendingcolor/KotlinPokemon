@@ -1,5 +1,6 @@
-package com.becerra.diego.poketinder
+package com.becerra.diego.poketinder.data.network
 
+import com.becerra.diego.poketinder.data.model.PokemonListResponse
 import retrofit2.Response
 import retrofit2.http.GET
 

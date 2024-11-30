@@ -15,13 +15,13 @@
         android:theme="@style/Theme.PokeTinder"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ui.view.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".data.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.view.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.view.MainActivity"
             android:exported="false" />
     </application>
 

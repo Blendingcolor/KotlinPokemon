@@ -1,4 +1,4 @@
-package com.becerra.diego.poketinder
+package com.becerra.diego.poketinder.ui.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.becerra.diego.poketinder.R
+import com.becerra.diego.poketinder.data.LoginActivity
+import com.becerra.diego.poketinder.data.database.SharedPreferencesRepository
 import com.becerra.diego.poketinder.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
